@@ -1,0 +1,44 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-18.04
+        go-version:
+          - 1.15.x
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/setup-go@v2
+        with:
+          go-version: ${{ matrix.go-version }}
+      - uses: actions/checkout@v2
+      - run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.31.0
+      - run: golangci-lint run
+
+  test:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-18.04
+        go-version:
+          - 1.13.x
+          - 1.14.x
+          - 1.15.x
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/setup-go@v2
+        with:
+          go-version: ${{ matrix.go-version }}
+      - uses: actions/checkout@v2
+      - run: go build ./...
+      - run: go test -cover ./...

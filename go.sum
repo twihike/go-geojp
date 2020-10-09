@@ -1,0 +1,4 @@
+github.com/twihike/go-strcase v0.0.0-20201009142638-43587877341f h1:9Inm0+M0IP3pK2yIPYdpVb8YUi8KIaAtIFNHRp+auCc=
+github.com/twihike/go-strcase v0.0.0-20201009142638-43587877341f/go.mod h1:FuQfSjMn8tmfulH0Yb+hUCjgYR8HA/s8lIHqrCTtEqQ=
+github.com/twihike/go-structconv v0.0.0-20201009144048-b7295b3d35d6 h1:kBBa0/be28n9UeTICl/mvWDwM4dLG/aS2Z7HoiwF/4U=
+github.com/twihike/go-structconv v0.0.0-20201009144048-b7295b3d35d6/go.mod h1:hiRJqsFcO4ZbsY+Qzd4lK1yHEcpJuKLKA4AsQI+KLP4=

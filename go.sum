@@ -1,4 +1,4 @@
-github.com/twihike/go-strcase v0.0.0-20201009142638-43587877341f h1:9Inm0+M0IP3pK2yIPYdpVb8YUi8KIaAtIFNHRp+auCc=
-github.com/twihike/go-strcase v0.0.0-20201009142638-43587877341f/go.mod h1:FuQfSjMn8tmfulH0Yb+hUCjgYR8HA/s8lIHqrCTtEqQ=
-github.com/twihike/go-structconv v0.0.0-20201009144048-b7295b3d35d6 h1:kBBa0/be28n9UeTICl/mvWDwM4dLG/aS2Z7HoiwF/4U=
-github.com/twihike/go-structconv v0.0.0-20201009144048-b7295b3d35d6/go.mod h1:hiRJqsFcO4ZbsY+Qzd4lK1yHEcpJuKLKA4AsQI+KLP4=
+github.com/twihike/go-strcase v0.0.0-20201009142638-fa028f44a679 h1:+tvZTr/RE7Li/N3aj/DWvUjwoqeikYOPP7yd5PnJ/JY=
+github.com/twihike/go-strcase v0.0.0-20201009142638-fa028f44a679/go.mod h1:DtVRalmcMpMRI6Xre24dbUlSHDUYN3gXEgWOdQtxEHA=
+github.com/twihike/go-structconv v0.0.0-20201220145339-fbc64a9c733b h1:OKVkXoVM8Nq1EJiwJT1xHB6uppsFjjySj5FkOyYeb6w=
+github.com/twihike/go-structconv v0.0.0-20201220145339-fbc64a9c733b/go.mod h1:h9mQfKIUZXnqrZMXR0L5Usnl1Eq2vlUvVQ+QgB8weI0=
